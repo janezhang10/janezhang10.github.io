@@ -106,6 +106,7 @@
 .u-section-2 .u-image-1 {
   width: 415px;
   height: 393px;
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
@@ -120,17 +121,20 @@
 
 .u-section-2 .u-btn-1 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 0 auto 0 0;
   padding: 0;
 }
 
 .u-section-2 .u-text-1 {
+  animation-duration: 1000ms;
   margin: 0;
 }
 
 .u-section-2 .u-text-2 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 23px 51px 0 0;
 }
 
@@ -156,6 +160,7 @@
 .u-section-2 .u-image-2 {
   height: 299px;
   width: 449px;
+  animation-duration: 1000ms;
   margin: 17px auto 0;
 }
 
@@ -169,17 +174,20 @@
 
 .u-section-2 .u-btn-3 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 0 auto 0 0;
   padding: 0;
 }
 
 .u-section-2 .u-text-3 {
+  animation-duration: 1000ms;
   margin: 0;
 }
 
 .u-section-2 .u-text-4 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 13px 51px 0 0;
 }
 
@@ -206,6 +214,7 @@
   width: 419px;
   height: 246px;
   object-position: 50% 100%;
+  animation-duration: 1000ms;
   margin: 45px auto 0;
 }
 
@@ -220,17 +229,20 @@
 
 .u-section-2 .u-btn-5 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: -3px auto 0 0;
   padding: 0;
 }
 
 .u-section-2 .u-text-5 {
+  animation-duration: 1000ms;
   margin: 0;
 }
 
 .u-section-2 .u-text-6 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 12px 51px 0 0;
 }
 
@@ -465,6 +477,7 @@
 .u-section-3 .u-image-1 {
   height: 163px;
   object-position: 52.91% 100%;
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
@@ -479,17 +492,20 @@
 
 .u-section-3 .u-btn-1 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 4px auto 0 2px;
   padding: 0;
 }
 
 .u-section-3 .u-text-1 {
+  animation-duration: 1000ms;
   margin: 0 2px;
 }
 
 .u-section-3 .u-text-2 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 12px 53px 0 2px;
 }
 
@@ -508,7 +524,9 @@
 }
 
 .u-section-3 .u-image-2 {
-  height: 224px;
+  height: 262px;
+  animation-duration: 1000ms;
+  width: 449px;
   margin: 0 auto;
 }
 
@@ -523,17 +541,20 @@
 
 .u-section-3 .u-btn-3 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 4px auto 0 4px;
   padding: 0;
 }
 
 .u-section-3 .u-text-3 {
+  animation-duration: 1000ms;
   margin: 0 4px;
 }
 
 .u-section-3 .u-text-4 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 12px 55px 0 4px;
 }
 
@@ -550,6 +571,7 @@
 .u-section-3 .u-image-3 {
   width: 400px;
   height: 350px;
+  animation-duration: 1000ms;
   margin: 39px auto 0;
 }
 
@@ -564,17 +586,20 @@
 
 .u-section-3 .u-btn-4 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 60px auto 0 6px;
   padding: 0;
 }
 
 .u-section-3 .u-text-5 {
+  animation-duration: 1000ms;
   margin: 0 6px;
 }
 
 .u-section-3 .u-text-6 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 28px 63px 0 0;
 }
 
@@ -625,6 +650,7 @@
 
   .u-section-3 .u-image-2 {
     width: 410px;
+    height: 212px;
   }
 
   .u-section-3 .u-layout-cell-4 {
@@ -701,6 +727,7 @@
 
   .u-section-3 .u-image-2 {
     width: 300px;
+    height: 154px;
   }
 
   .u-section-3 .u-layout-cell-4 {
@@ -823,6 +850,7 @@
 .u-section-4 .u-image-1 {
   width: 405px;
   height: 288px;
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
@@ -837,17 +865,20 @@
 
 .u-section-4 .u-btn-1 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 4px auto 0 2px;
   padding: 0;
 }
 
 .u-section-4 .u-text-1 {
+  animation-duration: 1000ms;
   margin: 0 2px;
 }
 
 .u-section-4 .u-text-2 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 12px 53px 0 2px;
 }
 
@@ -864,6 +895,7 @@
 .u-section-4 .u-image-2 {
   width: 410px;
   height: 382px;
+  animation-duration: 1000ms;
   margin: -5px auto;
 }
 
@@ -878,17 +910,20 @@
 
 .u-section-4 .u-btn-2 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 4px auto 0 4px;
   padding: 0;
 }
 
 .u-section-4 .u-text-3 {
+  animation-duration: 1000ms;
   margin: 0 4px;
 }
 
 .u-section-4 .u-text-4 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 12px 55px 0 4px;
 }
 
@@ -905,6 +940,7 @@
 .u-section-4 .u-image-3 {
   height: 226px;
   width: 449px;
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
@@ -919,17 +955,20 @@
 
 .u-section-4 .u-btn-3 {
   font-size: 1.875rem;
+  animation-duration: 1000ms;
   margin: 60px auto 0 6px;
   padding: 0;
 }
 
 .u-section-4 .u-text-5 {
+  animation-duration: 1000ms;
   margin: 0 6px;
 }
 
 .u-section-4 .u-text-6 {
   font-size: 1.125rem;
   line-height: 2;
+  animation-duration: 1000ms;
   margin: 12px 57px 0 6px;
 }
 
