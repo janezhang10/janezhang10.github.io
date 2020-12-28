@@ -1,15 +1,16 @@
-.u-section-1 {
-  background-image: url("images/background.jpg");
-  background-position: 50% 50%;
+.u-section-1 .u-sheet-1 {
+  min-height: 563px;
 }
 
-.u-section-1 .u-sheet-1 {
-  min-height: 610px;
+.u-section-1 .u-image-1 {
+  height: 456px;
+  margin-top: 107px;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 570px;
-  margin: 246px auto 60px 0;
+  margin: -364px auto 60px 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -23,17 +24,22 @@
 .u-section-1 .u-text-1 {
   font-size: 6rem;
   line-height: 1;
-  margin: 122px 241px 0 -10px;
+  margin: 122px 166px 0 65px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 503px;
+    min-height: 716px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 328px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 470px;
-    margin-top: 348px;
+    margin-top: -312px;
+    margin-bottom: 0;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -52,6 +58,14 @@
     min-height: 1177px;
   }
 
+  .u-section-1 .u-image-1 {
+    margin-top: 312px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -296px;
+  }
+
   .u-section-1 .u-layout-cell-1 {
     min-height: 100px;
   }
@@ -62,16 +76,16 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 {
-    background-position: 34.59% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 2479px;
   }
 
+  .u-section-1 .u-image-1 {
+    margin-top: 75px;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 111px;
+    margin-top: -279px;
   }
 
   .u-section-1 .u-text-1 {
@@ -84,13 +98,17 @@
     min-height: 1531px;
   }
 
+  .u-section-1 .u-image-1 {
+    margin-top: 27px;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
+    margin-top: -114px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
-    margin-left: -10px;
     margin-right: 36px;
   }
 }.u-section-2 .u-sheet-1 {
@@ -696,7 +714,7 @@
 
 .u-section-6 .u-text-1 {
   animation-duration: 1000ms;
-  margin: 10px 411px 24px 0;
+  margin: 10px 49px 24px 24px;
 }
 
 @media (max-width: 1199px) {
@@ -705,9 +723,7 @@
   }
 
   .u-section-6 .u-text-1 {
-    margin-top: -131px;
-    margin-right: 211px;
-    margin-bottom: 0;
+    margin: -131px 0 0;
   }
 }
 
@@ -718,7 +734,6 @@
 
   .u-section-6 .u-text-1 {
     margin-top: -236px;
-    margin-right: 0;
   }
 }
 
