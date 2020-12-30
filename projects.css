@@ -16,7 +16,7 @@
   line-height: 0.8;
   font-size: 6rem;
   font-weight: 700;
-  margin: -249px -80px 60px 80px;
+  margin: -249px 678px 60px 80px;
 }
 
 @media (max-width: 1199px) {
@@ -519,10 +519,10 @@
 }
 
 .u-section-3 .u-image-2 {
-  height: 262px;
+  height: 258px;
   animation-duration: 1000ms;
-  width: 449px;
-  margin: 0 auto;
+  width: 441px;
+  margin: 39px auto 0;
 }
 
 .u-section-3 .u-layout-cell-4 {
@@ -915,7 +915,7 @@
 
 .u-section-4 .u-image-3 {
   height: 226px;
-  width: 449px;
+  width: 441px;
   animation-duration: 1000ms;
   margin: 0 auto;
 }
