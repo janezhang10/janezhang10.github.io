@@ -263,7 +263,7 @@
 }
 
 .u-section-3 .u-layout-cell-2 {
-  min-height: 284px;
+  min-height: 319px;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -272,13 +272,13 @@
 
 .u-section-3 .u-btn-2 {
   letter-spacing: 1px;
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   animation-duration: 1000ms;
   border-style: solid;
   font-weight: 700;
   box-shadow: 26px 26px 0px 0 rgba(34,84,81,1);
   margin: 0 auto;
-  padding: 84px 168px 85px 167px;
+  padding: 80px 148px;
 }
 
 .u-section-3 .u-layout-cell-3 {
@@ -338,7 +338,7 @@
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 234px;
+    min-height: 263px;
   }
 
   .u-section-3 .u-layout-cell-3 {
