@@ -86,18 +86,16 @@
     margin-right: 126px;
   }
 }.u-section-3 .u-sheet-1 {
-  min-height: 922px;
+  min-height: 765px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .u-section-3 .u-layout-cell-1 {
-  min-height: 948px;
-  background-image: none;
-  animation-duration: 1000ms;
+  min-height: 738px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -113,26 +111,25 @@
 .u-section-3 .u-text-1 {
   font-size: 1.25rem;
   animation-duration: 1000ms;
-  margin: 21px 0 0;
+  margin: 21px 2px 0;
 }
 
 .u-section-3 .u-text-2 {
-  margin: 15px 0 0;
+  margin: 21px 3px 0 0;
 }
 
 .u-section-3 .u-layout-cell-2 {
-  min-height: 948px;
-  animation-duration: 1000ms;
+  min-height: 407px;
 }
 
 .u-section-3 .u-container-layout-2 {
-  padding: 30px 30px 0;
+  padding: 30px;
 }
 
 .u-section-3 .u-image-2 {
   width: 303px;
   height: 64px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-3 {
@@ -145,16 +142,15 @@
 }
 
 .u-section-3 .u-layout-cell-3 {
-  min-height: 948px;
-  animation-duration: 1000ms;
+  min-height: 331px;
 }
 
 .u-section-3 .u-container-layout-3 {
-  padding: 30px 30px 0;
+  padding: 30px 30px 29px;
 }
 
 .u-section-3 .u-image-3 {
-  height: 61px;
+  height: 92px;
   margin: 0 auto;
 }
 
@@ -172,8 +168,13 @@
     min-height: 9295px;
   }
 
+  .u-section-3 .u-layout-wrap-1 {
+    min-height: 424px;
+  }
+
   .u-section-3 .u-layout-cell-1 {
-    min-height: 782px;
+    min-height: 609px;
+    animation-duration: 1000ms;
   }
 
   .u-section-3 .u-image-1 {
@@ -183,10 +184,17 @@
 
   .u-section-3 .u-text-1 {
     margin-top: 11px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-right: 0;
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 782px;
+    min-height: 336px;
+    animation-duration: 1000ms;
   }
 
   .u-section-3 .u-image-2 {
@@ -195,7 +203,8 @@
   }
 
   .u-section-3 .u-layout-cell-3 {
-    min-height: 782px;
+    min-height: 273px;
+    animation-duration: 1000ms;
   }
 
   .u-section-3 .u-image-3 {
