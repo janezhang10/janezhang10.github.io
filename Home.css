@@ -235,7 +235,7 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 578px;
+  min-height: 550px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
@@ -244,7 +244,7 @@
 }
 
 .u-section-3 .u-layout-cell-1 {
-  min-height: 313px;
+  min-height: 262px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -264,7 +264,7 @@
 }
 
 .u-section-3 .u-layout-cell-2 {
-  min-height: 313px;
+  min-height: 262px;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -277,13 +277,14 @@
   animation-duration: 1000ms;
   border-style: solid;
   font-weight: 700;
-  box-shadow: 26px 26px 0px 0 rgba(34,84,81,1);
-  margin: 0 auto;
+  box-shadow: 24px 24px 0px 0 rgba(34,84,81,1);
+  text-shadow: 24px 24px 0 rgba(0,0,0,0);
+  margin: 0 auto 0 0;
   padding: 80px 148px;
 }
 
 .u-section-3 .u-layout-cell-3 {
-  min-height: 313px;
+  min-height: 288px;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -296,17 +297,18 @@
   border-style: none;
   font-weight: 700;
   animation-duration: 1000ms;
-  box-shadow: 26px 26px 0px 0 rgba(34,84,81,1);
-  margin: -30px 0 -3px;
+  box-shadow: 24px 24px 0px 0 rgba(34,84,81,1);
+  text-shadow: 24px 24px 0 rgba(0,0,0,0);
+  margin: 0 auto 0 0;
   padding: 80px 213px 81px 212px;
 }
 
 .u-section-3 .u-layout-cell-4 {
-  min-height: 313px;
+  min-height: 288px;
 }
 
 .u-section-3 .u-container-layout-4 {
-  padding: 30px;
+  padding: 0 30px 30px;
 }
 
 .u-section-3 .u-btn-4 {
@@ -315,8 +317,9 @@
   border-style: none;
   font-weight: 700;
   animation-duration: 1000ms;
-  box-shadow: 25px 26px 0px 0 rgba(34,84,81,1);
-  margin: -30px 0 0;
+  box-shadow: 24px 24px 0px 0 rgba(34,84,81,1);
+  text-shadow: 24px 24px 0 rgba(0,0,0,0);
+  margin: 30px 0 0;
   padding: 80px 161px 81px 160px;
 }
 
@@ -330,7 +333,7 @@
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 258px;
+    min-height: 216px;
   }
 
   .u-section-3 .u-btn-1 {
@@ -338,15 +341,15 @@
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 258px;
+    min-height: 216px;
   }
 
   .u-section-3 .u-layout-cell-3 {
-    min-height: 258px;
+    min-height: 237px;
   }
 
   .u-section-3 .u-layout-cell-4 {
-    min-height: 258px;
+    min-height: 237px;
   }
 }
 
