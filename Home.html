@@ -20,18 +20,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <a href="home.html"><img src="images/home_logo.png" style="width:80%;" class="w3-round" ></a><br><br>
+    <a href="home.html"><img src="images/home_logo.png" style="width:40%;" class="w3-round" ></a><br><br>
     <h4><b>QIANWEI (JANE) ZHANG</b></h4>
   </div>
   <div class="w3-bar-block">
     <a href="projects.html" onclick="close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
     <a href="experience.html" onclick="close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EXPERIENCE</a> 
     <a href="art_portfolio.html" onclick="close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ART PORTFOLIO</a> 
-    <a href="about_me.html" onclick="close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="about_me.html" onclick="close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT <MEnu></MEnu></a> 
   </div>
   <div class="w3-panel w3-large">
-    <i class="fa fa-github-square w3-hover-opacity" href="https://github.com/janezhang10"></i>
-    <i class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/qianwei-z/"></i>
+    <a href="https://github.com/janezhang10"><i class="fa fa-github-square w3-hover-opacity" ></i></a>
+    <a href="https://www.linkedin.com/in/qianwei-z/"><i class="fa fa-linkedin w3-hover-opacity" ></i></a>
   </div>
 </nav>
 
@@ -40,67 +40,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
-
+  <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="open()"><i class="fa fa-bars"></i></span>
   <!-- Images of Me -->
   <div class="w3-row-padding w3-padding-16" id="about">
     <div style="display:block; margin-left:auto; margin-right:auto; width:50%">
-      <img src="images/professional_headshot.jpg" alt="Professional Headshot" style="width:100%">
+      <img src="images/portrait.jpg" alt="Professional Headshot" style="width:100%">
     </div>
   </div>
 
   <div class="w3-container w3-padding-large">
-    <h4><b>About Me</b></h4>
-    <p>I graduated from the University of California, Berkeley in Spring 2023, with degrees in Computer Science and Applied Mathematics.
-      I love exploring both the technological and physical world by connecting my passions with my skills. I enjoy trying new things
-      and I am not afraid to dive in head first to an unknown world. </p>
+    <h4><b>Welcome!</b></h4>
+    <p>Whoever you are and for whatever reason you have stumbled upon on my page, I hope you enjoy your stay! This website is mostly comprised of my technical projects, art pieces, and snippets of my life. Who knows, maybe you will find something that piques
+      your interest!</p>
     <hr>
   </div>
 
-  <div class="w3-container w3-padding-large">
-    <h4><b>Random Interests</b></h4>
-  </div>
-
-  <div class="w3-row-padding" style="margin-bottom: 20px;">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/feather.png" alt="feather painting" class="w3-hover-opacity card-image">
-      <div class="w3-container w3-white">
-        <p><b>Art</b></p>
-        <p>I mostly do calligraphy and lettering but every once in a while I also explore other categories such as abstract and cartoon.
-          I am mostly self taught and I learn by looking at online guides and watching process videos.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/throwing.jpg" alt="throwing discus" class="w3-hover-opacity card-image">
-      <div class="w3-container w3-white">
-        <p><b>Throwing</b></p>
-        <p>I threw shotput and discus in my high school's track and field team. Fun fact: my personal records are 32 feet and 120 feet
-           for shotput and discus, respectively. Not at a professional level but enough for me to compete at MOC!</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="images/hydrogen.jpg" alt="hydrogen fuel rc car" class="w3-hover-opacity card-image">
-      <div class="w3-container w3-white">
-        <p><b>Saving the Environment</b></p>
-        <p>I believe that the environment is an important issue that more people should be actively fighting against. I personally participated
-          in the Hydrogen Horizon Automobile Competition, which promotes the use of Hydrogen fuel in cars instead of the typical fossil fuel. I
-          also interned at a water utility company and worked on products to help prevent people from wasting water due to leakages. 
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container  w3-margin-bottom" >
-      <img src="images/daphne.jpg" alt="cat" class="w3-hover-opacity card-image">
-      <div class="w3-container w3-white">
-        <p><b>Animals</b></p>
-        <p>I don't personally own any pets at the moment but I love interacting with other people's pets, whether they're furry or scaly.
-            I promise no animals were harmed in this image.
-        </p>
-      </div>
-    </div>
-  </div>
-    
 <!-- End page content -->
 </div>
 
@@ -117,10 +71,10 @@ function close() {
 }
 </script>
 
-<footer class="w3-container w3-padding-32 w3-dark-grey">
+<!-- <footer class="w3-container w3-padding-32 w3-dark-grey">
   <div class="w3-row-padding">
   </div>
-</footer>
+</footer> -->
 
 </body>
 </html>
