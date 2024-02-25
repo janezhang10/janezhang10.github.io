@@ -20,7 +20,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <a href="home.html"><img src="images/home_logo.png" style="width:80%;" class="w3-round" ></a><br><br>
+    <a href="home.html"><img src="images/home_logo.png" style="width:60%;" class="w3-round" ></a><br><br>
     <h4><b>QIANWEI (JANE) ZHANG</b></h4>
   </div>
   <div class="w3-bar-block">
@@ -40,7 +40,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
-
+  
+  <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  
   <!-- Images of Me -->
   <div class="w3-row-padding w3-padding-16" id="about">
     <div style="display:block; margin-left:auto; margin-right:auto; width:50%">
@@ -49,6 +51,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   </div>
 
   <div class="w3-container w3-padding-large">
+    
     <h4><b>About Me</b></h4>
     <p>I graduated from the University of California, Berkeley in Spring 2023, with degrees in Computer Science and Applied Mathematics.
       I love exploring both the technological and physical world by connecting my passions with my skills. I enjoy trying new things
@@ -106,7 +109,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 <script>
 // Script to open and close sidebar
-function open() {
+function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
 }

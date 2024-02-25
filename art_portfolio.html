@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jane Zhang Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="home.html"><img src="images/home_logo.png" style="width:60%;" class="w3-round" ></a><br><br>
+    <h4><b>QIANWEI (JANE) ZHANG</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="projects.html" onclick="close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="experience.html" onclick="close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EXPERIENCE</a> 
+    <a href="art_portfolio.html" onclick="close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ART PORTFOLIO</a> 
+    <a href="about_me.html" onclick="close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT <MEnu></MEnu></a> 
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://github.com/janezhang10"><i class="fa fa-github-square w3-hover-opacity" ></i></a>
+    <a href="https://www.linkedin.com/in/qianwei-z/"><i class="fa fa-linkedin w3-hover-opacity" ></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  
+  <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  
+  <!-- Images of Me -->
+
+  <div class="w3-container w3-padding-large">
+    
+    <h4><b>Art Portfolio</b></h4>
+    <p>As long as I could remember, I have always enjoyed expressing myself my making art. I've gone through phases of
+      different mediums and art styles, such as color pencils, acrylic, watercolor, digital, scenic, realism, and so on.
+      For the past few years, I've found calligraphy and letter art to be the most satisfying and stress relieving, hence
+      those are my main pieces of art displayed here.
+    </p>
+    <hr>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/cal.png" alt="cal" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <!-- <p><b>Art</b></p>
+        <p>I mostly do calligraphy and lettering but every once in a while I also explore other categories such as abstract and cartoon.
+          I am mostly self taught and I learn by looking at online guides and watching process videos.</p> -->
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/apeng.png" alt="AP English books" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/mothers_day.png" alt="mothers day" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+       </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/be_creative.png" alt="be creative" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/be_yourself.png" alt="be yourself" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/love.png" alt="love" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/music.png" alt="music quote" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/study.JPG" alt="study quote" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/happy_thought.png" alt="happy thoughts" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/happy_holiday.png" alt="happy holiday" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/litty.JPG" alt="litty bits" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <video autoplay loop controls class="card-image">
+        <source src="images/magn.mp4" type="video/mp4"/>
+      </video>
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/charmander.png" alt="charmander" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/dragonite.JPG" alt="dragonite" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/weedle.png" alt="weedle" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+      </div>
+    </div>
+    
+  </div>
+    
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+  </div>
+</footer>
+
+</body>
+</html>
