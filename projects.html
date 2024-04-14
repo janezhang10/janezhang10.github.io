@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jane Zhang Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="home.html"><img src="images/home_logo.png" style="width:60%;" class="w3-round" ></a><br><br>
+    <h4><b>QIANWEI (JANE) ZHANG</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="experience.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EXPERIENCE</a> 
+    <a href="projects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="art_portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ART PORTFOLIO</a> 
+    <a href="about_me.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT<MEnu></MEnu></a> 
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://github.com/janezhang10"><i class="fa fa-github-square w3-hover-opacity" ></i></a>
+    <a href="https://www.linkedin.com/in/qianwei-z/"><i class="fa fa-linkedin w3-hover-opacity" ></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  
+  <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div style="display:block; margin-left:auto; margin-right:auto; width:80%">
+      <img src="images/project_back.png" alt="project header" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container">
+      <img src="images/pintos.png" alt="pintos logo" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>PintOS</b>
+        C<br>
+        Created the threading, locking, processes, virtual memory, and memory allocation of PintOS, an educational operating system
+          for the x86 architecture using C. This operation system supports kernel threads, loading and running user programs, and has a file system.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/file_sharing.jpg" alt="file sharing logo" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>End2End Encrypted File Sharing System</b><br>
+          GoLang<br>
+          Built and designed the privacy policy for a file sharing service that offers user
+          authentication, simple file operations, and sharing and revoking file permissions. The service is built with Go and
+          guarantees availability, durability, and latency.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/database.png" alt="database" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>Database</b><br>
+          Java<br>
+          Built a database system by implementing B+ tree indices, efficient join algorithms, query optimization,
+          multigranularity locking to support concurrent execution of transactions,a nd database recovery. Join algorithms
+          includes but not limited to various nested loop joins, hash joins, external sort, and sort merge join.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/face_generator.png" alt="face generator" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>Face Generator</b><br>
+          Python<br>
+          Uses generative adversarial networks to create a program that can generate new faces from scratch. The neural network is trained
+          on a vast database of celebrity faces. Although the project is mostly geared toward generating faces, it is also able to generate
+          images of other categories as long as it is given a proper amount of images to train on.<br>
+          <a href="https://github.com/janezhang10/face_generator">github</a>
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/dog_classifier.png" alt="dog classifier" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>Dog Classifier</b><br>
+          Python<br>
+          Uses convolutional neural networks to create a program that detects the breed of a dog based on its physical appearance. If a human
+          is detected, then the program will match the human face to the most similar dog breed. If no dog or human is detected then the program
+          will not try to match the image to a dog breed. Any image input is accepted.<br>
+          <a href="https://github.com/janezhang10/Dog-Classification">github</a>
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/ml_logo.png" alt="machine learning" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>Various ML projects</b><br>
+          Python<br>
+          ◦ Classification: perceptrons, SVMs, LDA, QDA, logistic regression, decision trees neural networks, convolutional neural networks, boosting,
+          and nearest neighbor search for classification<br>
+          ◦ Regression: least-squares linear regression, logistic regression, polynomial regression,
+          ridge regression, and lasso for regression<br>
+          ◦ Density estimation: MLE<br>
+          ◦ Dimensionality reduction: PCA, random project<br>
+          ◦ Clustering: k-means clustering, heirarchical clustering
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container">
+      <img src="images/pacman_game.jpg" alt="pacman" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>AI Pac-Man</b><br>
+        Python<br>
+          Trained an AI to play the classic Pac-Man game using informed state-space search, probabilistic inference, and
+          reinforcement learning.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/scheme.png" alt="scheme logo" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>Scheme Interpreter</b><br>
+          Python<br>
+          A scheme interpreter written in python that allows the user to write programs in what Alan Turing claims is the most
+          beautiful programming language that exists.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/byow.png" alt="database" class="w3-hover-opacity project-card-image">
+      <div class="w3-container w3-white">
+        <p><b>My World</b><br>
+          Java<br>
+          A design project with a world generator that pseudorandomly generates a world based on the seed entered by the player.
+          The user can choose their avatar icon, roam around the world, and interact with objects in the world. More details can
+          be found at my Github repository:<br>
+          <a href="https://github.com/janezhang10/my_world">github</a>
+        </p>
+      </div>
+    </div>
+  </div>
+    
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+  </div>
+</footer>
+
+</body>
+</html>

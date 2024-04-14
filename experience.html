@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jane Zhang Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="home.html"><img src="images/home_logo.png" style="width:60%;" class="w3-round" ></a><br><br>
+    <h4><b>QIANWEI (JANE) ZHANG</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="experience.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EXPERIENCE</a> 
+    <a href="projects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="art_portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ART PORTFOLIO</a> 
+    <a href="about_me.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT<MEnu></MEnu></a> 
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://github.com/janezhang10"><i class="fa fa-github-square w3-hover-opacity" ></i></a>
+    <a href="https://www.linkedin.com/in/qianwei-z/"><i class="fa fa-linkedin w3-hover-opacity" ></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  
+  <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div style="display:block; margin-left:auto; margin-right:auto; width:80%">
+      <img src="images/exp_back.png" alt="work experience header" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large">
+    <h4><b>Work Experience</b></h4>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/aws_iot.png" alt="amazon web service logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Software Development Engineer</b><br>
+          Iot SiteWise Storage<br>
+          July 2023 - present<br>
+          Java, Ruby, Python<br>
+           ◦ Designed, optimized, and created solutions for data storage for all of AWS IoT.<br>
+           ◦ Dealt with low level storage, data structures, databases, and language concepts to
+          efficiently store and query data.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/aws_iot.png" alt="amazon web service logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Software Development Engineer Intern</b><br>
+          Iot SiteWise Monitor<br> 
+          May 2022 - August 2022<br>
+          Typescript, Web Audio API, Howler.js, Node.js, Yarn and Stencil.js<br>
+          ◦ Created and designed highly scalable software alongside solution architects and managers to determine the behavior of the new
+            audio system relative to the data displayed by the <a href="https://synchrocharts.com">Synchro Charts</a>
+            integrated in the <a href="https://github.com/awslabs/iot-app-kit">IoT App Kit</a><br>
+          ◦ Wrote code on open source, improving code quality and increasing test coverage.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/aws_iot.png" alt="amazon web service logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Software Development Engineer Intern</b><br>
+          Iot SiteWise Monitor<br> 
+          June 2021 - August 2021<br>
+          Typescript, WebGL, Three.js, D3.js, Node.js, and Stencil.js<br>
+          ◦ Created a time-series data visualization accessible on IoT SiteWise Monitor.<br>
+          ◦ Deployed a user interface dashboard to visualize data from IoT devices to improve the user experience by providing
+          a way for users to pan left and right, zoom in and out at 60 fps, and choose custom time ranges to be displayed by
+          the visualization.<br>
+          ◦ Wrote code on open source and internal repositories daily, improving code quality and increasing test coverage<br>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/badger_meter2.png" alt="Badger Meter logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Software Engineer Intern</b><br>
+          June 2020 - June 2021<br>
+          Python, HTML, CSS, Javascript, Mako, Select2<br>
+          ◦ (full stack) Used SQL, Amazon S3, Amazon Lambda, and API Gateway to create a rest API that communicates between BEACON
+          and Blackbird (an extension of BEACON) to allow utility customers to set Blackbird to maintenance mode. Also made the UI
+          in BEACON that allows customers with certain proper permissions to customize their message using Markdown and choose when
+          to put Blackbird into maintenance mode.<br>
+          ◦ Reduced push notification latency by upgrading a cloud-based push notification system between BEACON
+          (cloud-based analytical data service) and EyeOnWater (mobile), using Python, AWS Lambda, API Gateway,
+          DynamoDB, and Firebase.<br>
+          ◦ Fix bugs and add features dealing with BEACON 
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/zoom.png" alt="Zoom logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Software Engineer Intern</b><br>
+          June 2020 - June 2021<br>
+          Python, Scrapy, Beautiful Soup<br>
+          ◦ Connected the world of Data Science and NLP by researching and writing programs to determine a word's
+          importance relative to a sentence. My programs are then used to label datasets for deep learning training.<br>
+          ◦ Wrote crawlers using Scrapy and Beautiful Soup to mine for specific data that is then used for deep learning training<br>
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/leadman_logo.png" alt="Badger Meter logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Software Engineer Intern</b><br>
+          June 2020 - June 2021<br>
+          Python, HTML, CSS, Javascript, Mako, Select2<br>
+          ◦ (full stack) Used SQL, Amazon S3, Amazon Lambda, and API Gateway to create a rest API that communicates between BEACON
+          and Blackbird (an extension of BEACON) to allow utility customers to set Blackbird to maintenance mode. Also made the UI
+          in BEACON that allows customers with certain proper permissions to customize their message using Markdown and choose when
+          to put Blackbird into maintenance mode.<br>
+          ◦ Reduced push notification latency by upgrading a cloud-based push notification system between BEACON
+          (cloud-based analytical data service) and EyeOnWater (mobile), using Python, AWS Lambda, API Gateway,
+          DynamoDB, and Firebase.<br>
+          ◦ Fix bugs and add features dealing with BEACON 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large">
+    <h4><b>Volunteer Experience</b></h4>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/shinshin.png" alt="shin shin logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b><a href="https://shinshinyouthgroup.weebly.com/2018-cultural-exchange.html">Educational Outreach Program</a></b><br>
+          January - June 2018<br>
+           ◦ Taught English pronunciation, linguistic style, and vocabulary terms to fifteen classes of 35 students in a rural part of
+           China  over the video communication platform QQ.<br>
+           ◦ Led a group of five volunteers to travel to China in June to teach English, robotics, programming, self-care, environmental
+           science, safety, and recycling to students of the same school. I developed the curriculum for all the courses and personally
+           taught English, robotics, and programming.<br>
+        </p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/teaching.jpg" alt="Jane teaching in person" class="w3-hover-opacity volunteer-card-image">
+      <div class="w3-container w3-white">
+        <p>
+           <a href="https://shinshinyouthgroup.weebly.com/jane-zhang-maanshan.html">Read about my overseas teaching</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/shinshin_online.png" alt="Jane teaching online" class="w3-hover-opacity volunteer-card-image">
+      <div class="w3-container w3-white">
+        <p>
+           <a href="https://shinshinyouthgroup.weebly.com/learning-beyond-borders.html">Read about my online teaching</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/codematrix4.png" alt="The Code Matrix logo" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Lead Technical Educator</b><br>
+          June 2017 -  June 2019<br>
+           ◦ Taught a class of 30 students ages 6-13 how to program and introduced them to computer science. Most of the programming was
+           in Scratch but also briefly exposed them to Python.  Although the class was an introductory programming course, I also taught
+           the value of computer science in society along with the ethical dilemmas that come with it.<br>
+           ◦ Created, designed, and presented the PowerPoints that were used to teach the students.<br>
+        </p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/codeMatrix1.jpg" alt="Jane teaching for Code Matrix" class="w3-hover-opacity volunteer-card-image">
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/codeMatrix2.jpg" alt="Students of Code Matrix" class="w3-hover-opacity volunteer-card-image">
+      </div>
+    </div>
+  </div>
+    
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+  </div>
+</footer>
+
+</body>
+</html>

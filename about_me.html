@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jane Zhang Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="home.html"><img src="images/home_logo.png" style="width:60%;" class="w3-round" ></a><br><br>
+    <h4><b>QIANWEI (JANE) ZHANG</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="experience.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EXPERIENCE</a> 
+    <a href="projects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="art_portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ART PORTFOLIO</a> 
+    <a href="about_me.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT<MEnu></MEnu></a> 
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://github.com/janezhang10"><i class="fa fa-github-square w3-hover-opacity" ></i></a>
+    <a href="https://www.linkedin.com/in/qianwei-z/"><i class="fa fa-linkedin w3-hover-opacity" ></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  
+  <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+  
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div style="display:block; margin-left:auto; margin-right:auto; width:50%">
+      <img src="images/professional_headshot.jpg" alt="Professional Headshot" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom: -40px;">
+    
+    <h4><b>About Me</b></h4>
+    <p>I graduated from the University of California, Berkeley in Spring 2023, with degrees in Computer Science and Applied Mathematics.
+      I love exploring both the technological and physical world by connecting my passions with my skills. I enjoy trying new things
+      and I am not afraid to dive in head first to an unknown world. </p>
+    <hr>
+  </div>
+  
+  <div class="w3-padding-large" style="margin-bottom: -40px;">
+    <h4><b>Classes taken at Berkeley</b></h4>
+  </div>
+  <div class="w3-container w3-padding-large row">
+    <div class="column">
+      <h5><b>Computer Science</b></h5>
+      <p>
+        ◦ CS 61A - Structure and Interpretation of Computer Programs (Python)<br> 
+        ◦ CS 61B - Data Structures (Java)<br>
+        ◦ CS 70 - Discrete Math<br> 
+        ◦ CS 61C - Computer Architecture, Machine Structures (C, RISC-V, x86)<br> 
+        ◦ CS 161 - Computer Security (C)<br> 
+        ◦ CS 162 - Operating Systems (C)<br> 
+        ◦ CS 170 - Efficient Algorithms and Intractable Problems<br> 
+        ◦ CS 186 - Database Systems (Java)<br>  
+        ◦ CS 188 - Artificial Intelligence (Python)<br>  
+        ◦ CS 189 - Machine Learning (Python)<br>  
+      </p>
+    </div>
+    <div class="column">
+      <h5><b>Math</b></h5>
+      <p>
+        ◦ Math 53 - Multivariable Calculus<br> 
+        ◦ Math 54, 110 - Linear Algebra<br>
+        ◦ Math 104 - Real Analysis<br> 
+        ◦ Math 113 - Discrete Math<br> 
+        ◦ Math 128a - Numerical Analysis<br> 
+        ◦ Math 185 - Complex Analysis<br> 
+      </p>
+    </div>
+  </div> 
+
+  <div class="w3-container w3-padding-large">
+    <h4><b>Random Interests</b></h4>
+  </div>
+
+  <div class="w3-row-padding" style="margin-bottom: 20px;">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/feather.png" alt="feather painting" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Art</b></p>
+        <p>I mostly do calligraphy and lettering but every once in a while I also explore other categories such as abstract and cartoon.
+          I am mostly self taught and I learn by looking at online guides and watching process videos.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/throwing.jpg" alt="throwing discus" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Throwing</b></p>
+        <p>I threw shotput and discus in my high school's track and field team. Fun fact: my personal records are 32 feet and 120 feet
+           for shotput and discus, respectively. Not at a professional level but enough for me to compete at MOC!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/hydrogen.jpg" alt="hydrogen fuel rc car" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Saving the Environment</b></p>
+        <p>I believe that the environment is an important issue that more people should be actively fighting against. I personally participated
+          in the Hydrogen Horizon Automobile Competition, which promotes the use of Hydrogen fuel in cars instead of the typical fossil fuel. I
+          also interned at a water utility company and worked on products to help prevent people from wasting water due to leakages. 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container  w3-margin-bottom" >
+      <img src="images/daphne.jpg" alt="cat" class="w3-hover-opacity card-image">
+      <div class="w3-container w3-white">
+        <p><b>Animals</b></p>
+        <p>I don't personally own any pets at the moment but I love interacting with other people's pets, whether they're furry or scaly.
+            I promise no animals were harmed in this image.
+        </p>
+      </div>
+    </div>
+  </div>
+    
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+  </div>
+</footer>
+
+</body>
+</html>
